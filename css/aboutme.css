@@ -303,7 +303,7 @@ a:focus {
 }
 
 #japan {
-    width: 650px;
+    width: 750px;
 }
 
 #japan b {
@@ -331,6 +331,30 @@ a:focus {
 
 #japan .footnote {
     font-size: 15px;
+}
+
+#world b {
+    color: chocolate;
+    display: inline-block;
+    -webkit-transition: 0.5s;
+    -moz-transition:    0.5s;
+    -ms-transition:     0.5s;
+    -o-transition:      0.5s;
+    transition:         0.5s;
+}
+
+#world.present .trans {
+    -webkit-transform: translateX(50px);
+    -moz-transform:    translateX(50px);
+    -ms-transform:     translateX(50px);
+    -o-transform:      translateX(50px);
+    transform:         translateX(50px);
+
+    -webkit-transition-delay: 0.5s;
+    -moz-transition-delay:    0.5s;
+    -ms-transition-delay:     0.5s;
+    -o-transition-delay:      0.5s;
+    transition-delay:         0.5s;
 }
 
 #meet {
@@ -367,7 +391,7 @@ a:focus {
     width: 900px;
     padding-bottom: 120px;
 
-    background-image: url(http://www.gravatar.com/avatar/318643095c83b914cf80a7f99f247fe6?s=160);
+/*    background-image: url(http://www.iosinit.com/assets/images/iosinit-wechat.jpg);*/
     background-position: bottom right;
     background-repeat: no-repeat;
 }
@@ -450,6 +474,14 @@ a:focus {
     font-size: 20px;
 }
 
+#subcribe {
+    width: 900px;
+    padding-bottom: 135px;
+    background-image: url(http://www.iosinit.com/assets/images/iosinit-wechat.jpg);
+    background-position: right 120px bottom 200px;
+    background-repeat: no-repeat;
+}
+
 #motto {
     text-align: center;
 }
@@ -462,9 +494,9 @@ a:focus {
 
 #back {
     width: 700px;
-    padding-bottom: 400px;
+    padding-bottom: 420px;
 
-    background-image: url(http://i758.photobucket.com/albums/xx224/onevcat/ou-gi.jpg);
+    background-image: url(file:///Users/fang/Desktop/aboutme/avatar-tall.jpg);
     background-position: bottom right;
     background-repeat: no-repeat;
 }
